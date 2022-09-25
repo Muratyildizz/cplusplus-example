@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a,b,c;
+cout<<"ucgenin kenarlarini giriniz"<<endl;
+cout<<"a kenarini gir:"<<endl;
+cin>>a;
+cout<<"b kenarini gir:"<<endl;
+cin>>b;
+cout<<"c kenarini gir:"<<endl;
+cin>>c;
+ if(a*a+b*b==c*c||a*a+c*c==b*b||c*c+b*b==a*a){
+    cout<<"dik ucgendir"<<endl;
+}
+else{
+    cout<<"dik ucgen degildir"<<endl;
+}
+}
+
