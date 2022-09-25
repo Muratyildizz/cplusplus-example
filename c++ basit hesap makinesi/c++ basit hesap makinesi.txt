@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float a,b,c,sonuc;
+    cout<<"hesap makinesi"<<endl;
+    cout<<"***************"<<endl;
+    cout<<"toplama islemi icin lutfen 1'e basiniz"<<endl;
+    cout<<"cikarma islemi icin lutfen 2'e basiniz"<<endl;
+    cout<<"carpma islemi icin lutfen 3'e basiniz"<<endl;
+    cout<<"bolme islemi icin lutfen 4'e basiniz"<<endl;
+    cout<<"yapmak istediginiz islem numarasini giriniz"<<endl;
+    cin>>c;
+    cout<<"birinci sayiyi gir";
+    cin>>a;
+    cout<<"ikinci ayiyi gir";
+    cin>>b;
+    if(c==1)
+        sonuc=a+b;
+    else if(c==2)
+        sonuc=a-b;
+    else if(c==3)
+        sonuc=a*b;
+    else if(c==4)
+        sonuc=a/b;
+    else
+        cout<<"yanlış secim yaptınız";
+    cout<<"sonuc:"<<sonuc;
+    return 0;
+}
